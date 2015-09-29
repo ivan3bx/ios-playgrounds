@@ -1,5 +1,7 @@
 //: ## Comments and Documentation
 //: (aka boring bits today that may become more important tomorrow)
+//:
+//: See also Erica Sadun's [Swift header documentation in Xcode 7](http://ericasadun.com/2015/06/14/swift-header-documentation-in-xcode-7/)
 
 /*:
 ### Method Documentation
@@ -37,10 +39,13 @@ Here's what the method doc above looks like (option-click the method, or open up
     
     /// This just demonstrates line comments (not as clean but same effect)
     ///
+    ///  - SeeAlso: ```aMethod() -> [String]``` which probably does what you want
+    ///
     ///  - Parameter foo: a foo object
     ///  - Parameter bar: a bar object
     ///
     ///  - Returns: nothing
+    ///  - Throws: FailedError when something fails
     func nothing(foo: AnyObject, bar: AnyObject) -> Void { }
 }
 
